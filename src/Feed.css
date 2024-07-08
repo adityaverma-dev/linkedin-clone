@@ -1,0 +1,132 @@
+.Feed{
+    margin-top: 30px;
+    flex: 0.4;
+  
+
+}
+
+.feedtop {
+    margin-left: 25px;
+    background: white;
+    border-radius: 10px;
+
+
+
+}
+.Feedoptions{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+ 
+    cursor: pointer;
+
+}
+
+.feedsearch{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.feedinput {
+    margin-top: 10px;
+    flex: 1;
+    border-radius: 70px;
+    height: 40px;
+    width: 450px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.feeds{
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+
+.feedsearch > img{
+    margin-top: 10px; 
+}
+
+.feeds :hover {
+    background-color: gray;
+    border-radius: 20px;
+   
+}   
+
+
+.Feedtitle{
+    font-size: 15px;
+}
+
+.feedsearch > form > button {
+    display: none;
+}
+
+
+.postheader {
+    display: flex;
+}
+
+.userinfo {
+    margin: 0px;
+    padding: 0px; /* Add some space between image and text */
+}
+.userinfo {
+    margin-left: 10px; /* Add some space between image and text */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.postname, .desc {
+    margin: 0; /* Remove margin */
+
+}
+
+.desc {
+    font-size: 12px;
+    color: gray;
+}
+
+
+.postbuttons :hover{
+    background-color: lightgray;
+
+
+}
+
+.postmain {
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: white;
+    padding: 15px;
+    margin-buttom: 10px;
+    border-radius: 10px;
+}
+
+.postbody {
+    overflow-wrap: anywhere;
+
+
+}
+
+.postname {
+    font-size: 15px;
+}
+
+.postbuttons {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.postbtn {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+ 
+    cursor: pointer;
+
+}
